@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-03T14:41:20 EET" name="Default suite" finished-at="2025-03-03T14:42:36 EET" duration-ms="75989">
+    <groups>
+    </groups>
+    <test started-at="2025-03-03T14:41:20 EET" name="Default test" finished-at="2025-03-03T14:42:36 EET" duration-ms="75989">
+      <class name="ExpenseInvoice.ExpenseInvoiceTC">
+        <test-method is-config="true" signature="preTest()[pri:0, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:41:21 EET" name="preTest" finished-at="2025-03-03T14:41:53 EET" duration-ms="32764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method signature="navigate_to_expinse_invoice_page()[pri:1, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:41:53 EET" name="navigate_to_expinse_invoice_page" finished-at="2025-03-03T14:41:54 EET" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_expinse_invoice_page -->
+        <test-method signature="clickOnAddNewBill()[pri:2, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:41:54 EET" name="clickOnAddNewBill" finished-at="2025-03-03T14:42:02 EET" duration-ms="8071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddNewBill -->
+        <test-method signature="verifyIfTheUserCanEnterAFirstRowInBillPage()[pri:3, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:02 EET" name="verifyIfTheUserCanEnterAFirstRowInBillPage" finished-at="2025-03-03T14:42:05 EET" duration-ms="2811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfTheUserCanEnterAFirstRowInBillPage -->
+        <test-method signature="uploadAttachment()[pri:4, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:05 EET" name="uploadAttachment" finished-at="2025-03-03T14:42:09 EET" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadAttachment -->
+        <test-method signature="addNewBillWithEmptyData()[pri:5, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:09 EET" name="addNewBillWithEmptyData" finished-at="2025-03-03T14:42:10 EET" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewBillWithEmptyData -->
+        <test-method signature="addNewBill()[pri:6, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:10 EET" name="addNewBill" finished-at="2025-03-03T14:42:13 EET" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewBill -->
+        <test-method signature="verifyTheAmountWithNoTax()[pri:7, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:13 EET" name="verifyTheAmountWithNoTax" finished-at="2025-03-03T14:42:13 EET" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheAmountWithNoTax -->
+        <test-method signature="addTwoNewLineBill()[pri:8, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:13 EET" name="addTwoNewLineBill" finished-at="2025-03-03T14:42:17 EET" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoNewLineBill -->
+        <test-method signature="verifyTheAmountWith10Tax()[pri:9, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:17 EET" name="verifyTheAmountWith10Tax" finished-at="2025-03-03T14:42:17 EET" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheAmountWith10Tax -->
+        <test-method signature="addThreeNewLineBill()[pri:10, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:17 EET" name="addThreeNewLineBill" finished-at="2025-03-03T14:42:20 EET" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThreeNewLineBill -->
+        <test-method signature="verifyThe15TaxRate()[pri:11, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:20 EET" name="verifyThe15TaxRate" finished-at="2025-03-03T14:42:20 EET" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThe15TaxRate -->
+        <test-method signature="addFourNewLineBill()[pri:12, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:20 EET" name="addFourNewLineBill" finished-at="2025-03-03T14:42:24 EET" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFourNewLineBill -->
+        <test-method signature="verifyThe20TaxRate()[pri:13, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:24 EET" name="verifyThe20TaxRate" finished-at="2025-03-03T14:42:24 EET" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThe20TaxRate -->
+        <test-method signature="verifyIfTotalAmountInFooterGreaterThanTotalAmountOnHeader()[pri:14, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:24 EET" name="verifyIfTotalAmountInFooterGreaterThanTotalAmountOnHeader" finished-at="2025-03-03T14:42:26 EET" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfTotalAmountInFooterGreaterThanTotalAmountOnHeader -->
+        <test-method signature="verifyIfTotalAmountInFooterLessThanTotalAmountOnHeader()[pri:15, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:26 EET" name="verifyIfTotalAmountInFooterLessThanTotalAmountOnHeader" finished-at="2025-03-03T14:42:29 EET" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfTotalAmountInFooterLessThanTotalAmountOnHeader -->
+        <test-method signature="verifyTheTotalAmountOnFooter()[pri:16, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:29 EET" name="verifyTheTotalAmountOnFooter" finished-at="2025-03-03T14:42:29 EET" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTotalAmountOnFooter -->
+        <test-method signature="verifyGSTNumberFromNoTaxField()[pri:17, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:29 EET" name="verifyGSTNumberFromNoTaxField" finished-at="2025-03-03T14:42:29 EET" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGSTNumberFromNoTaxField -->
+        <test-method signature="verifyGSTNumberFrom10TaxField()[pri:18, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:29 EET" name="verifyGSTNumberFrom10TaxField" finished-at="2025-03-03T14:42:30 EET" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGSTNumberFrom10TaxField -->
+        <test-method signature="verifyGSTNumberFrom15TaxField()[pri:19, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:30 EET" name="verifyGSTNumberFrom15TaxField" finished-at="2025-03-03T14:42:30 EET" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGSTNumberFrom15TaxField -->
+        <test-method signature="verifyGSTNumberFrom20TaxField()[pri:20, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:30 EET" name="verifyGSTNumberFrom20TaxField" finished-at="2025-03-03T14:42:30 EET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGSTNumberFrom20TaxField -->
+        <test-method signature="verifyTheTotalGST()[pri:21, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:30 EET" name="verifyTheTotalGST" finished-at="2025-03-03T14:42:30 EET" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTotalGST -->
+        <test-method signature="verifySubTotalAmount()[pri:22, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:30 EET" name="verifySubTotalAmount" finished-at="2025-03-03T14:42:30 EET" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubTotalAmount -->
+        <test-method signature="verifyApprovedButtonIsNotClickableWhenTheTotalAmountNotEqualAmout()[pri:23, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:30 EET" name="verifyApprovedButtonIsNotClickableWhenTheTotalAmountNotEqualAmout" finished-at="2025-03-03T14:42:30 EET" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApprovedButtonIsNotClickableWhenTheTotalAmountNotEqualAmout -->
+        <test-method signature="verifyApprovedButtonIsClickableWhenTotalAmountEqualAmout()[pri:24, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:30 EET" name="verifyApprovedButtonIsClickableWhenTotalAmountEqualAmout" finished-at="2025-03-03T14:42:33 EET" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApprovedButtonIsClickableWhenTotalAmountEqualAmout -->
+        <test-method signature="verifyClickOnApprovedButton()[pri:25, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:33 EET" name="verifyClickOnApprovedButton" finished-at="2025-03-03T14:42:36 EET" duration-ms="2671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnApprovedButton -->
+        <test-method signature="verifyClickOnApprovedButtonInPopup()[pri:26, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:36 EET" name="verifyClickOnApprovedButtonInPopup" finished-at="2025-03-03T14:42:36 EET" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnApprovedButtonInPopup -->
+        <test-method signature="verifyTheNumberOfAttchment()[pri:27, instance:ExpenseInvoice.ExpenseInvoiceTC@618b19ad]" started-at="2025-03-03T14:42:36 EET" name="verifyTheNumberOfAttchment" finished-at="2025-03-03T14:42:36 EET" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheNumberOfAttchment -->
+      </class> <!-- ExpenseInvoice.ExpenseInvoiceTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
